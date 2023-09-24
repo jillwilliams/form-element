@@ -136,5 +136,14 @@ body {
     padding: 20px;
     width: 50px;
 }
+#submit {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 120px;
+    border: 10px solid red;
+}
 
 
