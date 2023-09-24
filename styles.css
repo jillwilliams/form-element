@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    padding: 40px;
+    font-family: 'Quicksand';
+}
+#title {
+    color: deeppink;
+    font-size: 30px;
+}
+#input8 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 50px;
+}
+#input9 {
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 50px;
+}
+#fname {
+    color: teal;
+    
+}
+#input1 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: 10px teal solid;
+}
+#lname {
+    color: orange;
+}
+#input2 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: 10px orange solid;
+}
+#password {
+    color: yellow;
+}
+#input3 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: 10px yellow solid;
+}
+#email {
+    color:cyan;
+}
+#input4 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: 10px cyan solid;
+}
+#phone {
+    color:chartreuse;
+}
+#input5 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: 10px chartreuse solid;
+}
+#bday {
+    color:fuchsia;
+}
+#input6 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: 10px fuchsia solid;
+}
+#quantity {
+    color: floralwhite;
+}
+#input7 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 50px;
+    font-size: 20px;
+    border: 10px white solid;
+}
+#payment {
+    color: greenyellow;
+}
+#pay1 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 250px;
+    border: 10px greenyellow solid;
+}
+#subscribe {
+    color: thistle;
+}
+#input10 {
+    background-color: antiquewhite;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Quicksand';
+    padding: 20px;
+    width: 50px;
+}
+
+

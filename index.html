@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" 
+    Unicode="U+1F334, UTF-8: F0 9F 8C B4" 
+    Unicode= "U+1F332, UTF-8: F0 9F 8C B2" 
+    Unicode= "U+00A9"  
+    Unicode="U+00A9, UTF-8: C2 A9" 
+    Unicode="U+1F440, UTF-8: F0 9F 91 80"
+    Unicode="U+2C6D, UTF-8: E2 B1 AD"
+    Unicode="U+1D6FD, UTF-8: F0 9D 9B BD"
+    Unicode="U+30FB, UTF-8: E3 83 BB"
+    Unicode="U+2264, UTF-8: E2 89 A4"
+    Unicode="U+21D2, UTF-8: E2 87 92">
+    <title>Form Practice
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Quicksand|Architects+Daughter|Caveat|Kalam|Shadows+Into+Light|Fresca|Patrick+Hand|" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Itim&family=Syne+Tactile&display=swap" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="keywords" content="Tom MacDonald">
+</head>
+<body>
+    <form action="action_page.php" method="POST">
+        <div id="title">
+            <label for="title">Title:</label>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="input8" name="title" value="Mr.">  
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="input9" name="title" value="Mrs.">
+        </div>
+        <br>
+        <div id="fname">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="input1" name="fname" placeholder="Enter First Name" required>
+        </div>
+        <br>
+        <div id="lname">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="input2" name="fname" placeholder="Enter Last Name" required>
+        </div>
+        <br>
+        <div id="password">
+            <label for="pass">Password:</label>
+            <input type="password" id="input3" name="pass" placeholder="Enter Password"maxlength="12" required>
+        </div>
+        <br>
+        <div id="email">
+            <label for="email">Email:</label>
+            <input type="email" id="input4" name="email" placeholder="Enter Email" required>
+        </div>
+        <br>
+        <div id="phone">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="input5" name="phone" placeholder="(123)456-7891">
+        </div>
+        <br>
+        <div id="bday">
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="input6" name="bdate">
+        </div>
+        <br>
+        <div id="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="input7" name="quantity" min="0" max="99" value="1"> 
+        </div>
+        <br>
+        <div id="payment">
+            <label for="payment">Payment:</label>
+            <select id="pay1" name="payment">
+                <option value="Visa">Visa</option>
+                <option value="Apple Pay">Apple Pay</option>
+                <option value="American Express">American Express</option>
+            </select>
+        </div>
+        <br>
+        <div id="subscribe">
+            <label for="subscribe">Subscribe to our Email List:</label>
+            <input type="checkbox" id="input10" name="subscribe">
+        </div>
+    </form>
+</body>
+</html>
